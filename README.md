@@ -8,6 +8,10 @@ Supports Radio Thermostat HVAC Fan control on the HomeBridge Platform. It was de
 2. Install this plugin using: npm install -g homebridge-radiothermostat
 3. Update your configuration file. See bellow for a sample.
 
+# Credits
+
+Thanks to fordracerguy as his code was used as a template to build this.
+
 # Configuration
 
 Configuration sample:
@@ -31,6 +35,4 @@ Configuration sample:
         "platforms":[]
     }
 
-# Credits
 
-Thanks to fordracerguy as his code was used as a template to build this.
