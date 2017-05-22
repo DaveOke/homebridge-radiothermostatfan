@@ -1,0 +1,860 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Web\\External\\Node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly idealTree:prePrune homebridge-rtfan@1.0.0
+20 silly idealTree:prePrune ├── ajv@4.11.8
+20 silly idealTree:prePrune ├── asn1@0.2.3
+20 silly idealTree:prePrune ├── assert-plus@0.2.0
+20 silly idealTree:prePrune ├── asynckit@0.4.0
+20 silly idealTree:prePrune ├── aws-sign2@0.6.0
+20 silly idealTree:prePrune ├── aws4@1.6.0
+20 silly idealTree:prePrune ├── bcrypt-pbkdf@1.0.1
+20 silly idealTree:prePrune ├── boom@2.10.1
+20 silly idealTree:prePrune ├── caseless@0.12.0
+20 silly idealTree:prePrune ├── co@4.6.0
+20 silly idealTree:prePrune ├── combined-stream@1.0.5
+20 silly idealTree:prePrune ├── cryptiles@2.0.5
+20 silly idealTree:prePrune ├─┬ dashdash@1.14.1
+20 silly idealTree:prePrune │ └── assert-plus@1.0.0
+20 silly idealTree:prePrune ├── delayed-stream@1.0.0
+20 silly idealTree:prePrune ├── ecc-jsbn@0.1.1
+20 silly idealTree:prePrune ├── extend@3.0.1
+20 silly idealTree:prePrune ├── extsprintf@1.0.2
+20 silly idealTree:prePrune ├── forever-agent@0.6.1
+20 silly idealTree:prePrune ├── form-data@2.1.4
+20 silly idealTree:prePrune ├─┬ getpass@0.1.7
+20 silly idealTree:prePrune │ └── assert-plus@1.0.0
+20 silly idealTree:prePrune ├── har-schema@1.0.5
+20 silly idealTree:prePrune ├── har-validator@4.2.1
+20 silly idealTree:prePrune ├── hawk@3.1.3
+20 silly idealTree:prePrune ├── hoek@2.16.3
+20 silly idealTree:prePrune ├── http-signature@1.1.1
+20 silly idealTree:prePrune ├── is-typedarray@1.0.0
+20 silly idealTree:prePrune ├── isstream@0.1.2
+20 silly idealTree:prePrune ├── jodid25519@1.0.2
+20 silly idealTree:prePrune ├── jsbn@0.1.1
+20 silly idealTree:prePrune ├── json-schema@0.2.3
+20 silly idealTree:prePrune ├── json-stable-stringify@1.0.1
+20 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+20 silly idealTree:prePrune ├── jsonify@0.0.0
+20 silly idealTree:prePrune ├─┬ jsprim@1.4.0
+20 silly idealTree:prePrune │ └── assert-plus@1.0.0
+20 silly idealTree:prePrune ├── mime-db@1.27.0
+20 silly idealTree:prePrune ├── mime-types@2.1.15
+20 silly idealTree:prePrune ├── oauth-sign@0.8.2
+20 silly idealTree:prePrune ├── performance-now@0.2.0
+20 silly idealTree:prePrune ├── punycode@1.4.1
+20 silly idealTree:prePrune ├── qs@6.4.0
+20 silly idealTree:prePrune ├── request@2.81.0
+20 silly idealTree:prePrune ├── safe-buffer@5.0.1
+20 silly idealTree:prePrune ├── sntp@1.0.9
+20 silly idealTree:prePrune ├─┬ sshpk@1.13.0
+20 silly idealTree:prePrune │ └── assert-plus@1.0.0
+20 silly idealTree:prePrune ├── stringstream@0.0.5
+20 silly idealTree:prePrune ├── tough-cookie@2.3.2
+20 silly idealTree:prePrune ├── tunnel-agent@0.6.0
+20 silly idealTree:prePrune ├── tweetnacl@0.14.5
+20 silly idealTree:prePrune ├── uuid@3.0.1
+20 silly idealTree:prePrune └── verror@1.3.6
+21 silly loadIdealTree Finishing
+22 silly currentTree homebridge-rtfan@1.0.0
+22 silly currentTree ├── ajv@4.11.8
+22 silly currentTree ├── asn1@0.2.3
+22 silly currentTree ├── assert-plus@0.2.0
+22 silly currentTree ├── asynckit@0.4.0
+22 silly currentTree ├── aws-sign2@0.6.0
+22 silly currentTree ├── aws4@1.6.0
+22 silly currentTree ├── bcrypt-pbkdf@1.0.1
+22 silly currentTree ├── boom@2.10.1
+22 silly currentTree ├── caseless@0.12.0
+22 silly currentTree ├── co@4.6.0
+22 silly currentTree ├── combined-stream@1.0.5
+22 silly currentTree ├── cryptiles@2.0.5
+22 silly currentTree ├─┬ dashdash@1.14.1
+22 silly currentTree │ └── assert-plus@1.0.0
+22 silly currentTree ├── delayed-stream@1.0.0
+22 silly currentTree ├── ecc-jsbn@0.1.1
+22 silly currentTree ├── extend@3.0.1
+22 silly currentTree ├── extsprintf@1.0.2
+22 silly currentTree ├── forever-agent@0.6.1
+22 silly currentTree ├── form-data@2.1.4
+22 silly currentTree ├─┬ getpass@0.1.7
+22 silly currentTree │ └── assert-plus@1.0.0
+22 silly currentTree ├── har-schema@1.0.5
+22 silly currentTree ├── har-validator@4.2.1
+22 silly currentTree ├── hawk@3.1.3
+22 silly currentTree ├── hoek@2.16.3
+22 silly currentTree ├── http-signature@1.1.1
+22 silly currentTree ├── is-typedarray@1.0.0
+22 silly currentTree ├── isstream@0.1.2
+22 silly currentTree ├── jodid25519@1.0.2
+22 silly currentTree ├── jsbn@0.1.1
+22 silly currentTree ├── json-schema@0.2.3
+22 silly currentTree ├── json-stable-stringify@1.0.1
+22 silly currentTree ├── json-stringify-safe@5.0.1
+22 silly currentTree ├── jsonify@0.0.0
+22 silly currentTree ├─┬ jsprim@1.4.0
+22 silly currentTree │ └── assert-plus@1.0.0
+22 silly currentTree ├── mime-db@1.27.0
+22 silly currentTree ├── mime-types@2.1.15
+22 silly currentTree ├── oauth-sign@0.8.2
+22 silly currentTree ├── performance-now@0.2.0
+22 silly currentTree ├── punycode@1.4.1
+22 silly currentTree ├── qs@6.4.0
+22 silly currentTree ├── request@2.81.0
+22 silly currentTree ├── safe-buffer@5.0.1
+22 silly currentTree ├── sntp@1.0.9
+22 silly currentTree ├─┬ sshpk@1.13.0
+22 silly currentTree │ └── assert-plus@1.0.0
+22 silly currentTree ├── stringstream@0.0.5
+22 silly currentTree ├── tough-cookie@2.3.2
+22 silly currentTree ├── tunnel-agent@0.6.0
+22 silly currentTree ├── tweetnacl@0.14.5
+22 silly currentTree ├── uuid@3.0.1
+22 silly currentTree └── verror@1.3.6
+23 silly idealTree homebridge-rtfan@1.0.0
+23 silly idealTree ├── ajv@4.11.8
+23 silly idealTree ├── asn1@0.2.3
+23 silly idealTree ├── assert-plus@0.2.0
+23 silly idealTree ├── asynckit@0.4.0
+23 silly idealTree ├── aws-sign2@0.6.0
+23 silly idealTree ├── aws4@1.6.0
+23 silly idealTree ├── bcrypt-pbkdf@1.0.1
+23 silly idealTree ├── boom@2.10.1
+23 silly idealTree ├── caseless@0.12.0
+23 silly idealTree ├── co@4.6.0
+23 silly idealTree ├── combined-stream@1.0.5
+23 silly idealTree ├── cryptiles@2.0.5
+23 silly idealTree ├─┬ dashdash@1.14.1
+23 silly idealTree │ └── assert-plus@1.0.0
+23 silly idealTree ├── delayed-stream@1.0.0
+23 silly idealTree ├── ecc-jsbn@0.1.1
+23 silly idealTree ├── extend@3.0.1
+23 silly idealTree ├── extsprintf@1.0.2
+23 silly idealTree ├── forever-agent@0.6.1
+23 silly idealTree ├── form-data@2.1.4
+23 silly idealTree ├─┬ getpass@0.1.7
+23 silly idealTree │ └── assert-plus@1.0.0
+23 silly idealTree ├── har-schema@1.0.5
+23 silly idealTree ├── har-validator@4.2.1
+23 silly idealTree ├── hawk@3.1.3
+23 silly idealTree ├── hoek@2.16.3
+23 silly idealTree ├── http-signature@1.1.1
+23 silly idealTree ├── is-typedarray@1.0.0
+23 silly idealTree ├── isstream@0.1.2
+23 silly idealTree ├── jodid25519@1.0.2
+23 silly idealTree ├── jsbn@0.1.1
+23 silly idealTree ├── json-schema@0.2.3
+23 silly idealTree ├── json-stable-stringify@1.0.1
+23 silly idealTree ├── json-stringify-safe@5.0.1
+23 silly idealTree ├── jsonify@0.0.0
+23 silly idealTree ├─┬ jsprim@1.4.0
+23 silly idealTree │ └── assert-plus@1.0.0
+23 silly idealTree ├── mime-db@1.27.0
+23 silly idealTree ├── mime-types@2.1.15
+23 silly idealTree ├── oauth-sign@0.8.2
+23 silly idealTree ├── performance-now@0.2.0
+23 silly idealTree ├── punycode@1.4.1
+23 silly idealTree ├── qs@6.4.0
+23 silly idealTree ├── request@2.81.0
+23 silly idealTree ├── safe-buffer@5.0.1
+23 silly idealTree ├── sntp@1.0.9
+23 silly idealTree ├─┬ sshpk@1.13.0
+23 silly idealTree │ └── assert-plus@1.0.0
+23 silly idealTree ├── stringstream@0.0.5
+23 silly idealTree ├── tough-cookie@2.3.2
+23 silly idealTree ├── tunnel-agent@0.6.0
+23 silly idealTree ├── tweetnacl@0.14.5
+23 silly idealTree ├── uuid@3.0.1
+23 silly idealTree └── verror@1.3.6
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 silly generateActionsToTake Finishing
+27 silly diffTrees action count 0
+28 silly decomposeActions action count 0
+29 silly executeActions Starting
+30 silly install executeActions
+31 silly doSerial global-install 0
+32 silly doParallel fetch 0
+33 verbose lock using C:\Users\dave_000\AppData\Roaming\npm-cache\_locks\staging-da07515d72b9f837.lock for Z:\homebridge-rtfan\node_modules\.staging
+34 silly doParallel extract 0
+35 silly doParallel preinstall 0
+36 silly doReverseSerial remove 0
+37 silly doSerial move 0
+38 silly doSerial finalize 0
+39 silly doSerial build 0
+40 silly doSerial global-link 0
+41 silly doParallel update-linked 0
+42 silly doSerial install 0
+43 silly doSerial postinstall 0
+44 verbose unlock done using C:\Users\dave_000\AppData\Roaming\npm-cache\_locks\staging-da07515d72b9f837.lock for Z:\homebridge-rtfan\node_modules\.staging
+45 silly executeActions Finishing
+46 silly rollbackFailedOptional Starting
+47 silly rollbackFailedOptional Finishing
+48 silly runTopLevelLifecycles Starting
+49 silly install runTopLevelLifecycles
+50 silly preinstall homebridge-rtfan Z:\homebridge-rtfan\homebridge-rtfan-330c145cf0a94872f7e0441c6155ae78
+51 info lifecycle homebridge-rtfan@1.0.0~preinstall: homebridge-rtfan@1.0.0
+52 silly lifecycle homebridge-rtfan@1.0.0~preinstall: no script for preinstall, continuing
+53 silly build homebridge-rtfan
+54 info linkStuff homebridge-rtfan@1.0.0
+55 silly linkStuff homebridge-rtfan@1.0.0 has Z:\ as its parent node_modules
+56 verbose linkBins homebridge-rtfan@1.0.0
+57 verbose linkMans homebridge-rtfan@1.0.0
+58 verbose rebuildBundles homebridge-rtfan@1.0.0
+59 verbose rebuildBundles [ '.bin',
+59 verbose rebuildBundles   'ajv',
+59 verbose rebuildBundles   'asn1',
+59 verbose rebuildBundles   'assert-plus',
+59 verbose rebuildBundles   'asynckit',
+59 verbose rebuildBundles   'aws-sign2',
+59 verbose rebuildBundles   'aws4',
+59 verbose rebuildBundles   'bcrypt-pbkdf',
+59 verbose rebuildBundles   'boom',
+59 verbose rebuildBundles   'caseless',
+59 verbose rebuildBundles   'co',
+59 verbose rebuildBundles   'combined-stream',
+59 verbose rebuildBundles   'cryptiles',
+59 verbose rebuildBundles   'dashdash',
+59 verbose rebuildBundles   'delayed-stream',
+59 verbose rebuildBundles   'ecc-jsbn',
+59 verbose rebuildBundles   'extend',
+59 verbose rebuildBundles   'extsprintf',
+59 verbose rebuildBundles   'forever-agent',
+59 verbose rebuildBundles   'form-data',
+59 verbose rebuildBundles   'getpass',
+59 verbose rebuildBundles   'har-schema',
+59 verbose rebuildBundles   'har-validator',
+59 verbose rebuildBundles   'hawk',
+59 verbose rebuildBundles   'hoek',
+59 verbose rebuildBundles   'http-signature',
+59 verbose rebuildBundles   'is-typedarray',
+59 verbose rebuildBundles   'isstream',
+59 verbose rebuildBundles   'jodid25519',
+59 verbose rebuildBundles   'jsbn',
+59 verbose rebuildBundles   'json-schema',
+59 verbose rebuildBundles   'json-stable-stringify',
+59 verbose rebuildBundles   'json-stringify-safe',
+59 verbose rebuildBundles   'jsonify',
+59 verbose rebuildBundles   'jsprim',
+59 verbose rebuildBundles   'mime-db',
+59 verbose rebuildBundles   'mime-types',
+59 verbose rebuildBundles   'oauth-sign',
+59 verbose rebuildBundles   'performance-now',
+59 verbose rebuildBundles   'punycode',
+59 verbose rebuildBundles   'qs',
+59 verbose rebuildBundles   'request',
+59 verbose rebuildBundles   'safe-buffer',
+59 verbose rebuildBundles   'sntp',
+59 verbose rebuildBundles   'sshpk',
+59 verbose rebuildBundles   'stringstream',
+59 verbose rebuildBundles   'tough-cookie',
+59 verbose rebuildBundles   'tunnel-agent',
+59 verbose rebuildBundles   'tweetnacl',
+59 verbose rebuildBundles   'uuid',
+59 verbose rebuildBundles   'verror' ]
+60 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\ajv
+61 info build Z:\homebridge-rtfan\node_modules\ajv
+62 info lifecycle ajv@4.11.8~preinstall: ajv@4.11.8
+63 silly lifecycle ajv@4.11.8~preinstall: no script for preinstall, continuing
+64 info linkStuff ajv@4.11.8
+65 silly linkStuff ajv@4.11.8 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+66 verbose linkBins ajv@4.11.8
+67 verbose linkMans ajv@4.11.8
+68 verbose rebuildBundles ajv@4.11.8
+69 info lifecycle ajv@4.11.8~install: ajv@4.11.8
+70 silly lifecycle ajv@4.11.8~install: no script for install, continuing
+71 info lifecycle ajv@4.11.8~postinstall: ajv@4.11.8
+72 silly lifecycle ajv@4.11.8~postinstall: no script for postinstall, continuing
+73 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\asn1
+74 info build Z:\homebridge-rtfan\node_modules\asn1
+75 info lifecycle asn1@0.2.3~preinstall: asn1@0.2.3
+76 silly lifecycle asn1@0.2.3~preinstall: no script for preinstall, continuing
+77 info linkStuff asn1@0.2.3
+78 silly linkStuff asn1@0.2.3 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+79 verbose linkBins asn1@0.2.3
+80 verbose linkMans asn1@0.2.3
+81 verbose rebuildBundles asn1@0.2.3
+82 info lifecycle asn1@0.2.3~install: asn1@0.2.3
+83 silly lifecycle asn1@0.2.3~install: no script for install, continuing
+84 info lifecycle asn1@0.2.3~postinstall: asn1@0.2.3
+85 silly lifecycle asn1@0.2.3~postinstall: no script for postinstall, continuing
+86 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\assert-plus
+87 info build Z:\homebridge-rtfan\node_modules\assert-plus
+88 info lifecycle assert-plus@0.2.0~preinstall: assert-plus@0.2.0
+89 silly lifecycle assert-plus@0.2.0~preinstall: no script for preinstall, continuing
+90 info linkStuff assert-plus@0.2.0
+91 silly linkStuff assert-plus@0.2.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+92 verbose linkBins assert-plus@0.2.0
+93 verbose linkMans assert-plus@0.2.0
+94 verbose rebuildBundles assert-plus@0.2.0
+95 info lifecycle assert-plus@0.2.0~install: assert-plus@0.2.0
+96 silly lifecycle assert-plus@0.2.0~install: no script for install, continuing
+97 info lifecycle assert-plus@0.2.0~postinstall: assert-plus@0.2.0
+98 silly lifecycle assert-plus@0.2.0~postinstall: no script for postinstall, continuing
+99 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\asynckit
+100 info build Z:\homebridge-rtfan\node_modules\asynckit
+101 info lifecycle asynckit@0.4.0~preinstall: asynckit@0.4.0
+102 silly lifecycle asynckit@0.4.0~preinstall: no script for preinstall, continuing
+103 info linkStuff asynckit@0.4.0
+104 silly linkStuff asynckit@0.4.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+105 verbose linkBins asynckit@0.4.0
+106 verbose linkMans asynckit@0.4.0
+107 verbose rebuildBundles asynckit@0.4.0
+108 info lifecycle asynckit@0.4.0~install: asynckit@0.4.0
+109 silly lifecycle asynckit@0.4.0~install: no script for install, continuing
+110 info lifecycle asynckit@0.4.0~postinstall: asynckit@0.4.0
+111 silly lifecycle asynckit@0.4.0~postinstall: no script for postinstall, continuing
+112 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\aws-sign2
+113 info build Z:\homebridge-rtfan\node_modules\aws-sign2
+114 info lifecycle aws-sign2@0.6.0~preinstall: aws-sign2@0.6.0
+115 silly lifecycle aws-sign2@0.6.0~preinstall: no script for preinstall, continuing
+116 info linkStuff aws-sign2@0.6.0
+117 silly linkStuff aws-sign2@0.6.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+118 verbose linkBins aws-sign2@0.6.0
+119 verbose linkMans aws-sign2@0.6.0
+120 verbose rebuildBundles aws-sign2@0.6.0
+121 info lifecycle aws-sign2@0.6.0~install: aws-sign2@0.6.0
+122 silly lifecycle aws-sign2@0.6.0~install: no script for install, continuing
+123 info lifecycle aws-sign2@0.6.0~postinstall: aws-sign2@0.6.0
+124 silly lifecycle aws-sign2@0.6.0~postinstall: no script for postinstall, continuing
+125 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\aws4
+126 info build Z:\homebridge-rtfan\node_modules\aws4
+127 info lifecycle aws4@1.6.0~preinstall: aws4@1.6.0
+128 silly lifecycle aws4@1.6.0~preinstall: no script for preinstall, continuing
+129 info linkStuff aws4@1.6.0
+130 silly linkStuff aws4@1.6.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+131 verbose linkBins aws4@1.6.0
+132 verbose linkMans aws4@1.6.0
+133 verbose rebuildBundles aws4@1.6.0
+134 info lifecycle aws4@1.6.0~install: aws4@1.6.0
+135 silly lifecycle aws4@1.6.0~install: no script for install, continuing
+136 info lifecycle aws4@1.6.0~postinstall: aws4@1.6.0
+137 silly lifecycle aws4@1.6.0~postinstall: no script for postinstall, continuing
+138 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\bcrypt-pbkdf
+139 info build Z:\homebridge-rtfan\node_modules\bcrypt-pbkdf
+140 info lifecycle bcrypt-pbkdf@1.0.1~preinstall: bcrypt-pbkdf@1.0.1
+141 silly lifecycle bcrypt-pbkdf@1.0.1~preinstall: no script for preinstall, continuing
+142 info linkStuff bcrypt-pbkdf@1.0.1
+143 silly linkStuff bcrypt-pbkdf@1.0.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+144 verbose linkBins bcrypt-pbkdf@1.0.1
+145 verbose linkMans bcrypt-pbkdf@1.0.1
+146 verbose rebuildBundles bcrypt-pbkdf@1.0.1
+147 info lifecycle bcrypt-pbkdf@1.0.1~install: bcrypt-pbkdf@1.0.1
+148 silly lifecycle bcrypt-pbkdf@1.0.1~install: no script for install, continuing
+149 info lifecycle bcrypt-pbkdf@1.0.1~postinstall: bcrypt-pbkdf@1.0.1
+150 silly lifecycle bcrypt-pbkdf@1.0.1~postinstall: no script for postinstall, continuing
+151 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\boom
+152 info build Z:\homebridge-rtfan\node_modules\boom
+153 info lifecycle boom@2.10.1~preinstall: boom@2.10.1
+154 silly lifecycle boom@2.10.1~preinstall: no script for preinstall, continuing
+155 info linkStuff boom@2.10.1
+156 silly linkStuff boom@2.10.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+157 verbose linkBins boom@2.10.1
+158 verbose linkMans boom@2.10.1
+159 verbose rebuildBundles boom@2.10.1
+160 info lifecycle boom@2.10.1~install: boom@2.10.1
+161 silly lifecycle boom@2.10.1~install: no script for install, continuing
+162 info lifecycle boom@2.10.1~postinstall: boom@2.10.1
+163 silly lifecycle boom@2.10.1~postinstall: no script for postinstall, continuing
+164 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\caseless
+165 info build Z:\homebridge-rtfan\node_modules\caseless
+166 info lifecycle caseless@0.12.0~preinstall: caseless@0.12.0
+167 silly lifecycle caseless@0.12.0~preinstall: no script for preinstall, continuing
+168 info linkStuff caseless@0.12.0
+169 silly linkStuff caseless@0.12.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+170 verbose linkBins caseless@0.12.0
+171 verbose linkMans caseless@0.12.0
+172 verbose rebuildBundles caseless@0.12.0
+173 info lifecycle caseless@0.12.0~install: caseless@0.12.0
+174 silly lifecycle caseless@0.12.0~install: no script for install, continuing
+175 info lifecycle caseless@0.12.0~postinstall: caseless@0.12.0
+176 silly lifecycle caseless@0.12.0~postinstall: no script for postinstall, continuing
+177 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\co
+178 info build Z:\homebridge-rtfan\node_modules\co
+179 info lifecycle co@4.6.0~preinstall: co@4.6.0
+180 silly lifecycle co@4.6.0~preinstall: no script for preinstall, continuing
+181 info linkStuff co@4.6.0
+182 silly linkStuff co@4.6.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+183 verbose linkBins co@4.6.0
+184 verbose linkMans co@4.6.0
+185 verbose rebuildBundles co@4.6.0
+186 info lifecycle co@4.6.0~install: co@4.6.0
+187 silly lifecycle co@4.6.0~install: no script for install, continuing
+188 info lifecycle co@4.6.0~postinstall: co@4.6.0
+189 silly lifecycle co@4.6.0~postinstall: no script for postinstall, continuing
+190 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\combined-stream
+191 info build Z:\homebridge-rtfan\node_modules\combined-stream
+192 info lifecycle combined-stream@1.0.5~preinstall: combined-stream@1.0.5
+193 silly lifecycle combined-stream@1.0.5~preinstall: no script for preinstall, continuing
+194 info linkStuff combined-stream@1.0.5
+195 silly linkStuff combined-stream@1.0.5 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+196 verbose linkBins combined-stream@1.0.5
+197 verbose linkMans combined-stream@1.0.5
+198 verbose rebuildBundles combined-stream@1.0.5
+199 info lifecycle combined-stream@1.0.5~install: combined-stream@1.0.5
+200 silly lifecycle combined-stream@1.0.5~install: no script for install, continuing
+201 info lifecycle combined-stream@1.0.5~postinstall: combined-stream@1.0.5
+202 silly lifecycle combined-stream@1.0.5~postinstall: no script for postinstall, continuing
+203 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\cryptiles
+204 info build Z:\homebridge-rtfan\node_modules\cryptiles
+205 info lifecycle cryptiles@2.0.5~preinstall: cryptiles@2.0.5
+206 silly lifecycle cryptiles@2.0.5~preinstall: no script for preinstall, continuing
+207 info linkStuff cryptiles@2.0.5
+208 silly linkStuff cryptiles@2.0.5 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+209 verbose linkBins cryptiles@2.0.5
+210 verbose linkMans cryptiles@2.0.5
+211 verbose rebuildBundles cryptiles@2.0.5
+212 info lifecycle cryptiles@2.0.5~install: cryptiles@2.0.5
+213 silly lifecycle cryptiles@2.0.5~install: no script for install, continuing
+214 info lifecycle cryptiles@2.0.5~postinstall: cryptiles@2.0.5
+215 silly lifecycle cryptiles@2.0.5~postinstall: no script for postinstall, continuing
+216 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\dashdash
+217 info build Z:\homebridge-rtfan\node_modules\dashdash
+218 info lifecycle dashdash@1.14.1~preinstall: dashdash@1.14.1
+219 silly lifecycle dashdash@1.14.1~preinstall: no script for preinstall, continuing
+220 info linkStuff dashdash@1.14.1
+221 silly linkStuff dashdash@1.14.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+222 verbose linkBins dashdash@1.14.1
+223 verbose linkMans dashdash@1.14.1
+224 verbose rebuildBundles dashdash@1.14.1
+225 verbose rebuildBundles [ 'assert-plus' ]
+226 info lifecycle dashdash@1.14.1~install: dashdash@1.14.1
+227 silly lifecycle dashdash@1.14.1~install: no script for install, continuing
+228 info lifecycle dashdash@1.14.1~postinstall: dashdash@1.14.1
+229 silly lifecycle dashdash@1.14.1~postinstall: no script for postinstall, continuing
+230 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\delayed-stream
+231 info build Z:\homebridge-rtfan\node_modules\delayed-stream
+232 info lifecycle delayed-stream@1.0.0~preinstall: delayed-stream@1.0.0
+233 silly lifecycle delayed-stream@1.0.0~preinstall: no script for preinstall, continuing
+234 info linkStuff delayed-stream@1.0.0
+235 silly linkStuff delayed-stream@1.0.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+236 verbose linkBins delayed-stream@1.0.0
+237 verbose linkMans delayed-stream@1.0.0
+238 verbose rebuildBundles delayed-stream@1.0.0
+239 info lifecycle delayed-stream@1.0.0~install: delayed-stream@1.0.0
+240 silly lifecycle delayed-stream@1.0.0~install: no script for install, continuing
+241 info lifecycle delayed-stream@1.0.0~postinstall: delayed-stream@1.0.0
+242 silly lifecycle delayed-stream@1.0.0~postinstall: no script for postinstall, continuing
+243 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\ecc-jsbn
+244 info build Z:\homebridge-rtfan\node_modules\ecc-jsbn
+245 info lifecycle ecc-jsbn@0.1.1~preinstall: ecc-jsbn@0.1.1
+246 silly lifecycle ecc-jsbn@0.1.1~preinstall: no script for preinstall, continuing
+247 info linkStuff ecc-jsbn@0.1.1
+248 silly linkStuff ecc-jsbn@0.1.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+249 verbose linkBins ecc-jsbn@0.1.1
+250 verbose linkMans ecc-jsbn@0.1.1
+251 verbose rebuildBundles ecc-jsbn@0.1.1
+252 info lifecycle ecc-jsbn@0.1.1~install: ecc-jsbn@0.1.1
+253 silly lifecycle ecc-jsbn@0.1.1~install: no script for install, continuing
+254 info lifecycle ecc-jsbn@0.1.1~postinstall: ecc-jsbn@0.1.1
+255 silly lifecycle ecc-jsbn@0.1.1~postinstall: no script for postinstall, continuing
+256 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\extend
+257 info build Z:\homebridge-rtfan\node_modules\extend
+258 info lifecycle extend@3.0.1~preinstall: extend@3.0.1
+259 silly lifecycle extend@3.0.1~preinstall: no script for preinstall, continuing
+260 info linkStuff extend@3.0.1
+261 silly linkStuff extend@3.0.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+262 verbose linkBins extend@3.0.1
+263 verbose linkMans extend@3.0.1
+264 verbose rebuildBundles extend@3.0.1
+265 info lifecycle extend@3.0.1~install: extend@3.0.1
+266 silly lifecycle extend@3.0.1~install: no script for install, continuing
+267 info lifecycle extend@3.0.1~postinstall: extend@3.0.1
+268 silly lifecycle extend@3.0.1~postinstall: no script for postinstall, continuing
+269 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\extsprintf
+270 info build Z:\homebridge-rtfan\node_modules\extsprintf
+271 info lifecycle extsprintf@1.0.2~preinstall: extsprintf@1.0.2
+272 silly lifecycle extsprintf@1.0.2~preinstall: no script for preinstall, continuing
+273 info linkStuff extsprintf@1.0.2
+274 silly linkStuff extsprintf@1.0.2 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+275 verbose linkBins extsprintf@1.0.2
+276 verbose linkMans extsprintf@1.0.2
+277 verbose rebuildBundles extsprintf@1.0.2
+278 info lifecycle extsprintf@1.0.2~install: extsprintf@1.0.2
+279 silly lifecycle extsprintf@1.0.2~install: no script for install, continuing
+280 info lifecycle extsprintf@1.0.2~postinstall: extsprintf@1.0.2
+281 silly lifecycle extsprintf@1.0.2~postinstall: no script for postinstall, continuing
+282 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\forever-agent
+283 info build Z:\homebridge-rtfan\node_modules\forever-agent
+284 info lifecycle forever-agent@0.6.1~preinstall: forever-agent@0.6.1
+285 silly lifecycle forever-agent@0.6.1~preinstall: no script for preinstall, continuing
+286 info linkStuff forever-agent@0.6.1
+287 silly linkStuff forever-agent@0.6.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+288 verbose linkBins forever-agent@0.6.1
+289 verbose linkMans forever-agent@0.6.1
+290 verbose rebuildBundles forever-agent@0.6.1
+291 info lifecycle forever-agent@0.6.1~install: forever-agent@0.6.1
+292 silly lifecycle forever-agent@0.6.1~install: no script for install, continuing
+293 info lifecycle forever-agent@0.6.1~postinstall: forever-agent@0.6.1
+294 silly lifecycle forever-agent@0.6.1~postinstall: no script for postinstall, continuing
+295 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\form-data
+296 info build Z:\homebridge-rtfan\node_modules\form-data
+297 info lifecycle form-data@2.1.4~preinstall: form-data@2.1.4
+298 silly lifecycle form-data@2.1.4~preinstall: no script for preinstall, continuing
+299 info linkStuff form-data@2.1.4
+300 silly linkStuff form-data@2.1.4 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+301 verbose linkBins form-data@2.1.4
+302 verbose linkMans form-data@2.1.4
+303 verbose rebuildBundles form-data@2.1.4
+304 info lifecycle form-data@2.1.4~install: form-data@2.1.4
+305 silly lifecycle form-data@2.1.4~install: no script for install, continuing
+306 info lifecycle form-data@2.1.4~postinstall: form-data@2.1.4
+307 silly lifecycle form-data@2.1.4~postinstall: no script for postinstall, continuing
+308 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\getpass
+309 info build Z:\homebridge-rtfan\node_modules\getpass
+310 info lifecycle getpass@0.1.7~preinstall: getpass@0.1.7
+311 silly lifecycle getpass@0.1.7~preinstall: no script for preinstall, continuing
+312 info linkStuff getpass@0.1.7
+313 silly linkStuff getpass@0.1.7 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+314 verbose linkBins getpass@0.1.7
+315 verbose linkMans getpass@0.1.7
+316 verbose rebuildBundles getpass@0.1.7
+317 verbose rebuildBundles [ 'assert-plus' ]
+318 info lifecycle getpass@0.1.7~install: getpass@0.1.7
+319 silly lifecycle getpass@0.1.7~install: no script for install, continuing
+320 info lifecycle getpass@0.1.7~postinstall: getpass@0.1.7
+321 silly lifecycle getpass@0.1.7~postinstall: no script for postinstall, continuing
+322 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\har-schema
+323 info build Z:\homebridge-rtfan\node_modules\har-schema
+324 info lifecycle har-schema@1.0.5~preinstall: har-schema@1.0.5
+325 silly lifecycle har-schema@1.0.5~preinstall: no script for preinstall, continuing
+326 info linkStuff har-schema@1.0.5
+327 silly linkStuff har-schema@1.0.5 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+328 verbose linkBins har-schema@1.0.5
+329 verbose linkMans har-schema@1.0.5
+330 verbose rebuildBundles har-schema@1.0.5
+331 info lifecycle har-schema@1.0.5~install: har-schema@1.0.5
+332 silly lifecycle har-schema@1.0.5~install: no script for install, continuing
+333 info lifecycle har-schema@1.0.5~postinstall: har-schema@1.0.5
+334 silly lifecycle har-schema@1.0.5~postinstall: no script for postinstall, continuing
+335 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\har-validator
+336 info build Z:\homebridge-rtfan\node_modules\har-validator
+337 info lifecycle har-validator@4.2.1~preinstall: har-validator@4.2.1
+338 silly lifecycle har-validator@4.2.1~preinstall: no script for preinstall, continuing
+339 info linkStuff har-validator@4.2.1
+340 silly linkStuff har-validator@4.2.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+341 verbose linkBins har-validator@4.2.1
+342 verbose linkMans har-validator@4.2.1
+343 verbose rebuildBundles har-validator@4.2.1
+344 info lifecycle har-validator@4.2.1~install: har-validator@4.2.1
+345 silly lifecycle har-validator@4.2.1~install: no script for install, continuing
+346 info lifecycle har-validator@4.2.1~postinstall: har-validator@4.2.1
+347 silly lifecycle har-validator@4.2.1~postinstall: no script for postinstall, continuing
+348 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\hawk
+349 info build Z:\homebridge-rtfan\node_modules\hawk
+350 info lifecycle hawk@3.1.3~preinstall: hawk@3.1.3
+351 silly lifecycle hawk@3.1.3~preinstall: no script for preinstall, continuing
+352 info linkStuff hawk@3.1.3
+353 silly linkStuff hawk@3.1.3 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+354 verbose linkBins hawk@3.1.3
+355 verbose linkMans hawk@3.1.3
+356 verbose rebuildBundles hawk@3.1.3
+357 info lifecycle hawk@3.1.3~install: hawk@3.1.3
+358 silly lifecycle hawk@3.1.3~install: no script for install, continuing
+359 info lifecycle hawk@3.1.3~postinstall: hawk@3.1.3
+360 silly lifecycle hawk@3.1.3~postinstall: no script for postinstall, continuing
+361 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\hoek
+362 info build Z:\homebridge-rtfan\node_modules\hoek
+363 info lifecycle hoek@2.16.3~preinstall: hoek@2.16.3
+364 silly lifecycle hoek@2.16.3~preinstall: no script for preinstall, continuing
+365 info linkStuff hoek@2.16.3
+366 silly linkStuff hoek@2.16.3 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+367 verbose linkBins hoek@2.16.3
+368 verbose linkMans hoek@2.16.3
+369 verbose rebuildBundles hoek@2.16.3
+370 info lifecycle hoek@2.16.3~install: hoek@2.16.3
+371 silly lifecycle hoek@2.16.3~install: no script for install, continuing
+372 info lifecycle hoek@2.16.3~postinstall: hoek@2.16.3
+373 silly lifecycle hoek@2.16.3~postinstall: no script for postinstall, continuing
+374 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\http-signature
+375 info build Z:\homebridge-rtfan\node_modules\http-signature
+376 info lifecycle http-signature@1.1.1~preinstall: http-signature@1.1.1
+377 silly lifecycle http-signature@1.1.1~preinstall: no script for preinstall, continuing
+378 info linkStuff http-signature@1.1.1
+379 silly linkStuff http-signature@1.1.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+380 verbose linkBins http-signature@1.1.1
+381 verbose linkMans http-signature@1.1.1
+382 verbose rebuildBundles http-signature@1.1.1
+383 info lifecycle http-signature@1.1.1~install: http-signature@1.1.1
+384 silly lifecycle http-signature@1.1.1~install: no script for install, continuing
+385 info lifecycle http-signature@1.1.1~postinstall: http-signature@1.1.1
+386 silly lifecycle http-signature@1.1.1~postinstall: no script for postinstall, continuing
+387 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\is-typedarray
+388 info build Z:\homebridge-rtfan\node_modules\is-typedarray
+389 info lifecycle is-typedarray@1.0.0~preinstall: is-typedarray@1.0.0
+390 silly lifecycle is-typedarray@1.0.0~preinstall: no script for preinstall, continuing
+391 info linkStuff is-typedarray@1.0.0
+392 silly linkStuff is-typedarray@1.0.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+393 verbose linkBins is-typedarray@1.0.0
+394 verbose linkMans is-typedarray@1.0.0
+395 verbose rebuildBundles is-typedarray@1.0.0
+396 info lifecycle is-typedarray@1.0.0~install: is-typedarray@1.0.0
+397 silly lifecycle is-typedarray@1.0.0~install: no script for install, continuing
+398 info lifecycle is-typedarray@1.0.0~postinstall: is-typedarray@1.0.0
+399 silly lifecycle is-typedarray@1.0.0~postinstall: no script for postinstall, continuing
+400 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\isstream
+401 info build Z:\homebridge-rtfan\node_modules\isstream
+402 info lifecycle isstream@0.1.2~preinstall: isstream@0.1.2
+403 silly lifecycle isstream@0.1.2~preinstall: no script for preinstall, continuing
+404 info linkStuff isstream@0.1.2
+405 silly linkStuff isstream@0.1.2 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+406 verbose linkBins isstream@0.1.2
+407 verbose linkMans isstream@0.1.2
+408 verbose rebuildBundles isstream@0.1.2
+409 info lifecycle isstream@0.1.2~install: isstream@0.1.2
+410 silly lifecycle isstream@0.1.2~install: no script for install, continuing
+411 info lifecycle isstream@0.1.2~postinstall: isstream@0.1.2
+412 silly lifecycle isstream@0.1.2~postinstall: no script for postinstall, continuing
+413 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\jodid25519
+414 info build Z:\homebridge-rtfan\node_modules\jodid25519
+415 info lifecycle jodid25519@1.0.2~preinstall: jodid25519@1.0.2
+416 silly lifecycle jodid25519@1.0.2~preinstall: no script for preinstall, continuing
+417 info linkStuff jodid25519@1.0.2
+418 silly linkStuff jodid25519@1.0.2 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+419 verbose linkBins jodid25519@1.0.2
+420 verbose linkMans jodid25519@1.0.2
+421 verbose rebuildBundles jodid25519@1.0.2
+422 info lifecycle jodid25519@1.0.2~install: jodid25519@1.0.2
+423 silly lifecycle jodid25519@1.0.2~install: no script for install, continuing
+424 info lifecycle jodid25519@1.0.2~postinstall: jodid25519@1.0.2
+425 silly lifecycle jodid25519@1.0.2~postinstall: no script for postinstall, continuing
+426 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\jsbn
+427 info build Z:\homebridge-rtfan\node_modules\jsbn
+428 info lifecycle jsbn@0.1.1~preinstall: jsbn@0.1.1
+429 silly lifecycle jsbn@0.1.1~preinstall: no script for preinstall, continuing
+430 info linkStuff jsbn@0.1.1
+431 silly linkStuff jsbn@0.1.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+432 verbose linkBins jsbn@0.1.1
+433 verbose linkMans jsbn@0.1.1
+434 verbose rebuildBundles jsbn@0.1.1
+435 info lifecycle jsbn@0.1.1~install: jsbn@0.1.1
+436 silly lifecycle jsbn@0.1.1~install: no script for install, continuing
+437 info lifecycle jsbn@0.1.1~postinstall: jsbn@0.1.1
+438 silly lifecycle jsbn@0.1.1~postinstall: no script for postinstall, continuing
+439 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\json-schema
+440 info build Z:\homebridge-rtfan\node_modules\json-schema
+441 info lifecycle json-schema@0.2.3~preinstall: json-schema@0.2.3
+442 silly lifecycle json-schema@0.2.3~preinstall: no script for preinstall, continuing
+443 info linkStuff json-schema@0.2.3
+444 silly linkStuff json-schema@0.2.3 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+445 verbose linkBins json-schema@0.2.3
+446 verbose linkMans json-schema@0.2.3
+447 verbose rebuildBundles json-schema@0.2.3
+448 info lifecycle json-schema@0.2.3~install: json-schema@0.2.3
+449 silly lifecycle json-schema@0.2.3~install: no script for install, continuing
+450 info lifecycle json-schema@0.2.3~postinstall: json-schema@0.2.3
+451 silly lifecycle json-schema@0.2.3~postinstall: no script for postinstall, continuing
+452 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\json-stable-stringify
+453 info build Z:\homebridge-rtfan\node_modules\json-stable-stringify
+454 info lifecycle json-stable-stringify@1.0.1~preinstall: json-stable-stringify@1.0.1
+455 silly lifecycle json-stable-stringify@1.0.1~preinstall: no script for preinstall, continuing
+456 info linkStuff json-stable-stringify@1.0.1
+457 silly linkStuff json-stable-stringify@1.0.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+458 verbose linkBins json-stable-stringify@1.0.1
+459 verbose linkMans json-stable-stringify@1.0.1
+460 verbose rebuildBundles json-stable-stringify@1.0.1
+461 info lifecycle json-stable-stringify@1.0.1~install: json-stable-stringify@1.0.1
+462 silly lifecycle json-stable-stringify@1.0.1~install: no script for install, continuing
+463 info lifecycle json-stable-stringify@1.0.1~postinstall: json-stable-stringify@1.0.1
+464 silly lifecycle json-stable-stringify@1.0.1~postinstall: no script for postinstall, continuing
+465 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\json-stringify-safe
+466 info build Z:\homebridge-rtfan\node_modules\json-stringify-safe
+467 info lifecycle json-stringify-safe@5.0.1~preinstall: json-stringify-safe@5.0.1
+468 silly lifecycle json-stringify-safe@5.0.1~preinstall: no script for preinstall, continuing
+469 info linkStuff json-stringify-safe@5.0.1
+470 silly linkStuff json-stringify-safe@5.0.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+471 verbose linkBins json-stringify-safe@5.0.1
+472 verbose linkMans json-stringify-safe@5.0.1
+473 verbose rebuildBundles json-stringify-safe@5.0.1
+474 info lifecycle json-stringify-safe@5.0.1~install: json-stringify-safe@5.0.1
+475 silly lifecycle json-stringify-safe@5.0.1~install: no script for install, continuing
+476 info lifecycle json-stringify-safe@5.0.1~postinstall: json-stringify-safe@5.0.1
+477 silly lifecycle json-stringify-safe@5.0.1~postinstall: no script for postinstall, continuing
+478 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\jsonify
+479 info build Z:\homebridge-rtfan\node_modules\jsonify
+480 info lifecycle jsonify@0.0.0~preinstall: jsonify@0.0.0
+481 silly lifecycle jsonify@0.0.0~preinstall: no script for preinstall, continuing
+482 info linkStuff jsonify@0.0.0
+483 silly linkStuff jsonify@0.0.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+484 verbose linkBins jsonify@0.0.0
+485 verbose linkMans jsonify@0.0.0
+486 verbose rebuildBundles jsonify@0.0.0
+487 info lifecycle jsonify@0.0.0~install: jsonify@0.0.0
+488 silly lifecycle jsonify@0.0.0~install: no script for install, continuing
+489 info lifecycle jsonify@0.0.0~postinstall: jsonify@0.0.0
+490 silly lifecycle jsonify@0.0.0~postinstall: no script for postinstall, continuing
+491 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\jsprim
+492 info build Z:\homebridge-rtfan\node_modules\jsprim
+493 info lifecycle jsprim@1.4.0~preinstall: jsprim@1.4.0
+494 silly lifecycle jsprim@1.4.0~preinstall: no script for preinstall, continuing
+495 info linkStuff jsprim@1.4.0
+496 silly linkStuff jsprim@1.4.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+497 verbose linkBins jsprim@1.4.0
+498 verbose linkMans jsprim@1.4.0
+499 verbose rebuildBundles jsprim@1.4.0
+500 verbose rebuildBundles [ 'assert-plus' ]
+501 info lifecycle jsprim@1.4.0~install: jsprim@1.4.0
+502 silly lifecycle jsprim@1.4.0~install: no script for install, continuing
+503 info lifecycle jsprim@1.4.0~postinstall: jsprim@1.4.0
+504 silly lifecycle jsprim@1.4.0~postinstall: no script for postinstall, continuing
+505 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\mime-db
+506 info build Z:\homebridge-rtfan\node_modules\mime-db
+507 info lifecycle mime-db@1.27.0~preinstall: mime-db@1.27.0
+508 silly lifecycle mime-db@1.27.0~preinstall: no script for preinstall, continuing
+509 info linkStuff mime-db@1.27.0
+510 silly linkStuff mime-db@1.27.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+511 verbose linkBins mime-db@1.27.0
+512 verbose linkMans mime-db@1.27.0
+513 verbose rebuildBundles mime-db@1.27.0
+514 info lifecycle mime-db@1.27.0~install: mime-db@1.27.0
+515 silly lifecycle mime-db@1.27.0~install: no script for install, continuing
+516 info lifecycle mime-db@1.27.0~postinstall: mime-db@1.27.0
+517 silly lifecycle mime-db@1.27.0~postinstall: no script for postinstall, continuing
+518 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\mime-types
+519 info build Z:\homebridge-rtfan\node_modules\mime-types
+520 info lifecycle mime-types@2.1.15~preinstall: mime-types@2.1.15
+521 silly lifecycle mime-types@2.1.15~preinstall: no script for preinstall, continuing
+522 info linkStuff mime-types@2.1.15
+523 silly linkStuff mime-types@2.1.15 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+524 verbose linkBins mime-types@2.1.15
+525 verbose linkMans mime-types@2.1.15
+526 verbose rebuildBundles mime-types@2.1.15
+527 info lifecycle mime-types@2.1.15~install: mime-types@2.1.15
+528 silly lifecycle mime-types@2.1.15~install: no script for install, continuing
+529 info lifecycle mime-types@2.1.15~postinstall: mime-types@2.1.15
+530 silly lifecycle mime-types@2.1.15~postinstall: no script for postinstall, continuing
+531 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\oauth-sign
+532 info build Z:\homebridge-rtfan\node_modules\oauth-sign
+533 info lifecycle oauth-sign@0.8.2~preinstall: oauth-sign@0.8.2
+534 silly lifecycle oauth-sign@0.8.2~preinstall: no script for preinstall, continuing
+535 info linkStuff oauth-sign@0.8.2
+536 silly linkStuff oauth-sign@0.8.2 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+537 verbose linkBins oauth-sign@0.8.2
+538 verbose linkMans oauth-sign@0.8.2
+539 verbose rebuildBundles oauth-sign@0.8.2
+540 info lifecycle oauth-sign@0.8.2~install: oauth-sign@0.8.2
+541 silly lifecycle oauth-sign@0.8.2~install: no script for install, continuing
+542 info lifecycle oauth-sign@0.8.2~postinstall: oauth-sign@0.8.2
+543 silly lifecycle oauth-sign@0.8.2~postinstall: no script for postinstall, continuing
+544 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\performance-now
+545 info build Z:\homebridge-rtfan\node_modules\performance-now
+546 info lifecycle performance-now@0.2.0~preinstall: performance-now@0.2.0
+547 silly lifecycle performance-now@0.2.0~preinstall: no script for preinstall, continuing
+548 info linkStuff performance-now@0.2.0
+549 silly linkStuff performance-now@0.2.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+550 verbose linkBins performance-now@0.2.0
+551 verbose linkMans performance-now@0.2.0
+552 verbose rebuildBundles performance-now@0.2.0
+553 info lifecycle performance-now@0.2.0~install: performance-now@0.2.0
+554 silly lifecycle performance-now@0.2.0~install: no script for install, continuing
+555 info lifecycle performance-now@0.2.0~postinstall: performance-now@0.2.0
+556 silly lifecycle performance-now@0.2.0~postinstall: no script for postinstall, continuing
+557 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\punycode
+558 info build Z:\homebridge-rtfan\node_modules\punycode
+559 info lifecycle punycode@1.4.1~preinstall: punycode@1.4.1
+560 silly lifecycle punycode@1.4.1~preinstall: no script for preinstall, continuing
+561 info linkStuff punycode@1.4.1
+562 silly linkStuff punycode@1.4.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+563 verbose linkBins punycode@1.4.1
+564 verbose linkMans punycode@1.4.1
+565 verbose rebuildBundles punycode@1.4.1
+566 info lifecycle punycode@1.4.1~install: punycode@1.4.1
+567 silly lifecycle punycode@1.4.1~install: no script for install, continuing
+568 info lifecycle punycode@1.4.1~postinstall: punycode@1.4.1
+569 silly lifecycle punycode@1.4.1~postinstall: no script for postinstall, continuing
+570 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\qs
+571 info build Z:\homebridge-rtfan\node_modules\qs
+572 info lifecycle qs@6.4.0~preinstall: qs@6.4.0
+573 silly lifecycle qs@6.4.0~preinstall: no script for preinstall, continuing
+574 info linkStuff qs@6.4.0
+575 silly linkStuff qs@6.4.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+576 verbose linkBins qs@6.4.0
+577 verbose linkMans qs@6.4.0
+578 verbose rebuildBundles qs@6.4.0
+579 info lifecycle qs@6.4.0~install: qs@6.4.0
+580 silly lifecycle qs@6.4.0~install: no script for install, continuing
+581 info lifecycle qs@6.4.0~postinstall: qs@6.4.0
+582 silly lifecycle qs@6.4.0~postinstall: no script for postinstall, continuing
+583 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\safe-buffer
+584 info build Z:\homebridge-rtfan\node_modules\safe-buffer
+585 info lifecycle safe-buffer@5.0.1~preinstall: safe-buffer@5.0.1
+586 silly lifecycle safe-buffer@5.0.1~preinstall: no script for preinstall, continuing
+587 info linkStuff safe-buffer@5.0.1
+588 silly linkStuff safe-buffer@5.0.1 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+589 verbose linkBins safe-buffer@5.0.1
+590 verbose linkMans safe-buffer@5.0.1
+591 verbose rebuildBundles safe-buffer@5.0.1
+592 info lifecycle safe-buffer@5.0.1~install: safe-buffer@5.0.1
+593 silly lifecycle safe-buffer@5.0.1~install: no script for install, continuing
+594 info lifecycle safe-buffer@5.0.1~postinstall: safe-buffer@5.0.1
+595 silly lifecycle safe-buffer@5.0.1~postinstall: no script for postinstall, continuing
+596 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\sntp
+597 info build Z:\homebridge-rtfan\node_modules\sntp
+598 info lifecycle sntp@1.0.9~preinstall: sntp@1.0.9
+599 silly lifecycle sntp@1.0.9~preinstall: no script for preinstall, continuing
+600 info linkStuff sntp@1.0.9
+601 silly linkStuff sntp@1.0.9 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+602 verbose linkBins sntp@1.0.9
+603 verbose linkMans sntp@1.0.9
+604 verbose rebuildBundles sntp@1.0.9
+605 info lifecycle sntp@1.0.9~install: sntp@1.0.9
+606 silly lifecycle sntp@1.0.9~install: no script for install, continuing
+607 info lifecycle sntp@1.0.9~postinstall: sntp@1.0.9
+608 silly lifecycle sntp@1.0.9~postinstall: no script for postinstall, continuing
+609 verbose rebuild bundle Z:\homebridge-rtfan\node_modules\sshpk
+610 info build Z:\homebridge-rtfan\node_modules\sshpk
+611 info lifecycle sshpk@1.13.0~preinstall: sshpk@1.13.0
+612 silly lifecycle sshpk@1.13.0~preinstall: no script for preinstall, continuing
+613 info linkStuff sshpk@1.13.0
+614 silly linkStuff sshpk@1.13.0 has Z:\homebridge-rtfan\node_modules as its parent node_modules
+615 verbose linkBins sshpk@1.13.0
+616 verbose link bins [ { 'sshpk-conv': 'bin/sshpk-conv',
+616 verbose link bins     'sshpk-sign': 'bin/sshpk-sign',
+616 verbose link bins     'sshpk-verify': 'bin/sshpk-verify' },
+616 verbose link bins   'Z:\\homebridge-rtfan\\node_modules\\.bin',
+616 verbose link bins   false ]
+617 verbose linkMans sshpk@1.13.0
+618 verbose rebuildBundles sshpk@1.13.0
+619 verbose rebuildBundles [ 'assert-plus' ]
+620 warn EPACKAGEJSON homebridge-rtfan@1.0.0 No description
+621 warn EPACKAGEJSON homebridge-rtfan@1.0.0 No repository field.
+622 verbose stack Error: EPERM: operation not permitted, chmod 'Z:\homebridge-rtfan\node_modules\sshpk\bin\sshpk-sign'
+622 verbose stack     at Error (native)
+623 verbose cwd Z:\homebridge-rtfan
+624 error Windows_NT 10.0.15063
+625 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
+626 error node v5.4.1
+627 error npm  v3.3.4
+628 error path Z:\homebridge-rtfan\node_modules\sshpk\bin\sshpk-sign
+629 error code EPERM
+630 error errno -4048
+631 error syscall chmod
+632 error Error: EPERM: operation not permitted, chmod 'Z:\homebridge-rtfan\node_modules\sshpk\bin\sshpk-sign'
+632 error     at Error (native)
+632 error  { [Error: EPERM: operation not permitted, chmod 'Z:\homebridge-rtfan\node_modules\sshpk\bin\sshpk-sign']
+632 error   errno: -4048,
+632 error   code: 'EPERM',
+632 error   syscall: 'chmod',
+632 error   path: 'Z:\\homebridge-rtfan\\node_modules\\sshpk\\bin\\sshpk-sign' }
+633 error Please try running this command again as root/Administrator.
+634 verbose exit [ -4048, true ]
