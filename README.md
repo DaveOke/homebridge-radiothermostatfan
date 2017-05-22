@@ -30,3 +30,7 @@ Configuration sample:
 
         "platforms":[]
     }
+
+# Credits
+
+Thanks to fordracerguy as his code was used as a template to build this.
